@@ -14,7 +14,7 @@ from random import  choice, randint
 
                 
 @app.on_message(
-    command(["سورس","‹ السورس ›"," ","السورس"])
+    command(["السورس","‹ السورس ›"," ","السورس"])
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
@@ -24,7 +24,7 @@ reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "• 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗹𝗶𝘀𝗮", url=f"https://t.me/R_J_y"),
+                        "• 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗹𝗶𝘀𝗮", url=f"https://t.me/onlywissam"),
                 ],[
                     
                 

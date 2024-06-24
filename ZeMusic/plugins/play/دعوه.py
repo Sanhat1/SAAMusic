@@ -20,7 +20,7 @@ async def brah2(_, msg):
 
 @app.on_message(filters.video_chat_members_invited)
 async def brah3(app :app, message:Message):
-           text = f"↞ قام الحلو {message.from_user.mention} \n↞ بدعوتك يا :"
+           text = f"↞ هالحلو يبيك {message.from_user.mention} \n↞ تعال ياحلو للمكالمه :"
            x = 0
            for user in message.video_chat_members_invited.users:
              try:

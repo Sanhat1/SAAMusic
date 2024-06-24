@@ -29,7 +29,7 @@ class Mody(Client):
         try:
             await self.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"<u>**» {self.mention} ʙᴏᴛ sᴛᴀʀᴛᴇᴅ :**<u>\n\nɪᴅ : **{self.id}**\nɴᴀᴍᴇ : {self.name}\nᴜsᴇʀɴᴀᴍᴇ : @{self.username}",
+                text=f"**» {self.mention} ʙᴏᴛ sᴛᴀʀᴛᴇᴅ :**\n\nɪᴅ : **{self.id}**\nɴᴀᴍᴇ : {self.name}\nᴜsᴇʀɴᴀᴍᴇ : @{self.username}",
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(

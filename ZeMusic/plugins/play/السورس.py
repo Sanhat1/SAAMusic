@@ -44,7 +44,7 @@ def vgdg(client,message):
         message.reply_text(
             f"""✧ Welcome Baby,
 ᴅᴇᴠᴇʟᴏᴘᴇʀ -› Wissam♪ @onlywissam
-ᴄʜᴀɴɴᴇʟ -› 𝘀𝗼𝘂𝗿𝗰𝗲 𝗹𝗶𝘀𝗮 sourcerona""", 
+ᴄʜᴀɴɴᴇʟ -› 𝘀𝗼𝘂𝗿𝗰𝗲 𝗹𝗶𝘀𝗮 @sourcerona""", 
             reply_markup=InlineKeyboardMarkup(
                 [
                     [

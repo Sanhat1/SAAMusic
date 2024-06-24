@@ -43,8 +43,8 @@ reply_markup=InlineKeyboardMarkup(
 def vgdg(client,message):
         message.reply_text(
             f"""✧ Welcome Baby,
-ᴅᴇᴠᴇʟᴏᴘᴇʀ -› [Wissam♪](t.me/onlywissam)
-ᴄʜᴀɴɴᴇʟ -› [𝘀𝗼𝘂𝗿𝗰𝗲 𝗹𝗶𝘀𝗮](t.me/sourcerona)""", 
+ᴅᴇᴠᴇʟᴏᴘᴇʀ -› Wissam♪ @onlywissam
+ᴄʜᴀɴɴᴇʟ -› 𝘀𝗼𝘂𝗿𝗰𝗲 𝗹𝗶𝘀𝗮 sourcerona""", 
             reply_markup=InlineKeyboardMarkup(
                 [
                     [

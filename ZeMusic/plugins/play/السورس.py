@@ -37,3 +37,22 @@ reply_markup=InlineKeyboardMarkup(
         ),
 
     )
+
+
+@app.on_message(filters.command("","."))
+def vgdg(client,message):
+        message.reply_text(
+            f"""✧ Welcome Baby,
+ᴅᴇᴠᴇʟᴏᴘᴇʀ -› [Wissam♪](t.me/onlywissam)
+ᴄʜᴀɴɴᴇʟ -› [𝘀𝗼𝘂𝗿𝗰𝗲 𝗹𝗶𝘀𝗮](t.me/sourcerona)""", 
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(
+                            "تحديثات ليزا 🍻", url=f"t.me/sourcerona")
+                    ]
+                ]
+            ),
+            disable_web_page_preview=True
+
+        )

@@ -42,7 +42,7 @@ GIT_TOKEN = getenv(
 
 CHANNEL_NAME = getenv("CHANNEL_NAME", "𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗔𝗡𝗛𝗔𝗧")
 CHANNEL_LINK = getenv("CHANNEL_LINK", "https://t.me/u_s16")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/sourcerona")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/u_s16")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
